@@ -1,0 +1,15 @@
+<div>
+    <label for="nome" class="form-label">Produto</label>
+    <input class="form-control" name="nome" id="nome"[(ngModel)]="produto.nome" >
+    <label for="preco" class="form-label">Valor do produto</label>
+    <input class="form-control" name="preco" id="preco" style="margin-bottom: 10px;" currencyMask [(ngModel)]="produto.preco" [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" />
+    
+    
+   
+    <button type="button" class="btn btn-dark" style="margin-left: 10px;"(click)="adicionar()">{{textoBotao}}</button>
+    
+</div>
+
+
+
+

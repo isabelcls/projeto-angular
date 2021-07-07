@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "exemplo 1",
+      "preco": 1000.01
+    },
+    {
+      "id": 3,
+      "nome": "Teclado 2",
+      "preco": 100.36
+    },
+    {
+      "id": 5,
+      "nome": "Mouse Gamer",
+      "preco": "20.00",
+      "desconto": 10
+    },
+    {
+      "id": 6,
+      "nome": "Tablet",
+      "preco": 190,
+      "desconto": 10
+    },
+    {
+      "id": 7,
+      "nome": "MAC",
+      "preco": 5550,
+      "desconto": 10
+    }
+  ]
+}
